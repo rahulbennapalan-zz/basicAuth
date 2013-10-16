@@ -22,13 +22,9 @@ http.createServer(
 				} else {
 					data = JSON.parse(data);
 					for ( var i = 0; i < data.length; i++) {
-						console.log(data[i].username + " " + data[i].password);
-						console.log(username + " " + password);
 						if (data[i].username == username
 								&& data[i].password == password)
 							access = true;
-						else
-							console.log(false);
 					}
 				}
 
