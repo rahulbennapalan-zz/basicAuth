@@ -11,7 +11,7 @@ http.createServer(
 
 			var fs = require('fs');
 			var access = false;
-			var file = '/home/rahul/Desktop/username.json';
+			var file = 'username.json';
 			res.writeHead(200, {
 				'Content-Type' : 'text/plain'
 			});
