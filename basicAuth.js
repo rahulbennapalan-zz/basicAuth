@@ -16,7 +16,7 @@ http.createServer(
 
 					var fs = require('fs');
 					var access = false;
-					var file = 'username.json';
+					var file = 'authData.json';
 					fs.readFile(file, 'utf8', function(err, data) {
 						if (err) {
 							res.end("Auth Failed\n");
@@ -37,11 +37,11 @@ http.createServer(
 
 					});
 				} catch (err) {
-					res.end("Auth Failed\n");
+					res.end("Auth Failed\n" + err);
 				}
-
 			} else {
 				res.end("Auth Failed\n");
 			}
 
 		}).listen(9900, '127.0.0.1');
+		console.log("server running");
