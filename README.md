@@ -3,11 +3,11 @@ curl -X POST -H 'Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==' http://127.0
 ------------------------------------------------------
 MineWhat Ecommerce Analytics VQmod
 ------------------------------------------------------
-Source Repository:	https://github.com/minewhat/opencart...
-Author:			MineWhat Inc....
-Version:		1.3...
-Release Date:		2014-08-10...
-License:		GNU General Public License (GPL) version 3...
+Source Repository:	https://github.com/minewhat/opencart  
+Author:			MineWhat Inc.  
+Version:		1.3.  
+Release Date:		2014-08-10.  
+License:		GNU General Public License (GPL) version 3  
 ------------------------------------------------------
 
 
